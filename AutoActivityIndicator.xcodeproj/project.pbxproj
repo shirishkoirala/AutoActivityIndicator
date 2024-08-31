@@ -41,6 +41,11 @@
 			path = AutoActivityIndicator;
 			sourceTree = "<group>";
 		};
+		947AF0C32C8348610029D2EF /* Secrets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		947AF0862C83426B0029D2EF = {
 			isa = PBXGroup;
 			children = (
+				947AF0C32C8348610029D2EF /* Secrets */,
 				947AF0912C83426B0029D2EF /* AutoActivityIndicator */,
 				947AF0902C83426B0029D2EF /* Products */,
 			);
@@ -87,6 +93,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				947AF0912C83426B0029D2EF /* AutoActivityIndicator */,
+				947AF0C32C8348610029D2EF /* Secrets */,
 			);
 			name = AutoActivityIndicator;
 			packageProductDependencies = (
@@ -164,6 +171,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -191,6 +199,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -206,6 +215,8 @@
 		};
 		947AF0A62C83426C0029D2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 947AF0C32C8348610029D2EF /* Secrets */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -269,6 +280,8 @@
 		};
 		947AF0A72C83426C0029D2EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 947AF0C32C8348610029D2EF /* Secrets */;
+			baseConfigurationReferenceRelativePath = Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
